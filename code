@@ -1,4 +1,10 @@
-inline void read(ll &x) {
+// Header files here
+
+#define ll long long
+#define gc getchar_unlocked 
+// if you are using windows then use 'getchar' instead of 'getchar_unlocked'
+
+inline void input(ll &x) {
     register ll c = gc();
     x=0;
     ll n=0;
@@ -8,3 +14,14 @@ inline void read(ll &x) {
     if(n) x=-x;
 }
  
+int main(){
+/*
+    your code goes here.
+    ............................
+    for taking input.
+    ex. 
+    int x;
+    input(x);
+    ............................
+*/
+}
